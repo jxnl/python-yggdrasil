@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/yggdrasil
+   */site-packages/yggdrasil
+
+[run]
+branch = true
+source =
+    yggdrasil
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
